@@ -80,30 +80,3 @@
 
 
 
-
-# x=lambda a : a+5
-# print("total value=",x(2))
-
-
-# x=lambda a,b: a*b
-# print("tptal product is =",x(3,4))
-
-
-# x=lambda a,b,c: a+b-c
-# print("total value =",x(4,5,6))
-
-
-# n= [5,12,17,18,34,67,50]
-# def myfunc(x):
-#     if(x%2==0):
-#         return True
-#     else:
-#         return False
-# even=list(filter(myfunc,n))  
-# print(even) 
-
-
-a=["1","2",3,4,]
-print(a)
-b=list(map(int,a))
-print(b)
