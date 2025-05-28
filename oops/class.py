@@ -135,3 +135,55 @@
 # account.deposit(500)
 # account.withdraw(300)
 # print(account.checkbalance())
+
+
+
+# class Student:
+#     def __init__(self,name):
+#         self.name=name
+#         # self.score=score
+#         self.__score=[]
+       
+#     def get_score(self):
+#         return self.__score
+#     def set_score(self , new_score):
+#         if 0 <= new_score <= 100:
+#             # self.__score = new_score
+#             self.__score.append(new_score)
+#             return f"new_score {new_score} added for {self.name}"
+#     def get_average_score(self):
+#         if len(self.__score) == 0:
+#             return "No scores available to calculate the average."
+#         return sum(self.__score) / len(self.__score)
+#     # def get_score(self):
+#     #     return self.__score
+# student= Student("Anil")
+# print(student.set_score(20))
+# print(student.set_score(30))
+# print(student.get_score())
+# print(student.get_average_score())
+
+
+
+# Exercise 3: Build a class Employee with multiple constructors that can initialize an employee object in different ways.
+class Employee:
+    def __init__(self,name,id=None,department=None):
+        self.name=name
+        self.id=id
+        self.department=department
+    def get_name(self):
+        return self.name
+    def get_id(self):
+          return self.id
+    def get_department(self):
+          print(f"Department: {self.department}")
+employee=Employee("Anil",id=123,department="cse")
+print(employee.get_name())
+print(employee.get_id())
+print(employee.get_department())
+
+
+
+
+
+
