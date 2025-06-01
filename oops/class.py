@@ -165,22 +165,22 @@
 
 
 
-# Exercise 3: Build a class Employee with multiple constructors that can initialize an employee object in different ways.
-class Employee:
-    def __init__(self,name,id=None,department=None):
-        self.name=name
-        self.id=id
-        self.department=department
-    def get_name(self):
-        return self.name
-    def get_id(self):
-          return self.id
-    def get_department(self):
-          print(f"Department: {self.department}")
-employee=Employee("Anil",id=123,department="cse")
-print(employee.get_name())
-print(employee.get_id())
-print(employee.get_department())
+# # Exercise 3: Build a class Employee with multiple constructors that can initialize an employee object in different ways.
+# class Employee:
+#     def __init__(self,name,id=None,department=None):
+#         self.name=name
+#         self.id=id
+#         self.department=department
+#     def get_name(self):
+#         return self.name
+#     def get_id(self):
+#           return self.id
+#     def get_department(self):
+#           print(f"Department: {self.department}")
+# employee=Employee("Anil",id=123,department="cse")
+# print(employee.get_name())
+# print(employee.get_id())
+# print(employee.get_department())
 
 
 

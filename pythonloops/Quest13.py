@@ -1,4 +1,4 @@
-power 
+# power
 base=4
 expo=4
 power=1
