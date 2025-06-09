@@ -9,12 +9,12 @@
 
 # pip install numpy 
 
-import numpy as np 
+# import numpy as np 
 
-a = [1,45,78,90]
-type(a) 
-b = np.array(a)
-print(b)
+# a = [1,45,78,90]
+# type(a) 
+# b = np.array(a)
+# print(b)
 
 # a = [] 
 # size = int(input("Enter size:"))
