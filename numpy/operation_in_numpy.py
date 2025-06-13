@@ -107,19 +107,19 @@ np.sum(a , axis = 1)   ### return row wise sum
 
 # hstack and vstack
 
-a = np.arange(1,5)
-b = np.arange(5,9)
-c = np.arange(9,13)
+# a = np.arange(1,5)
+# b = np.arange(5,9)
+# c = np.arange(9,13)
 
-np.hstack((a,b,c))
+# np.hstack((a,b,c))
 
-np.vstack((a,b,c))
+# np.vstack((a,b,c))
 
-a = np.arange(1,5)
-a
+# a = np.arange(1,5)
+# a
 
-np.sqrt(a) 
+# np.sqrt(a) 
 
-np.sin(a) 
+# np.sin(a) 
 
-np.cos(a) 
+# np.cos(a) 

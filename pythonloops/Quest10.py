@@ -1,5 +1,5 @@
 
-n=12363
+n=int(input("enter a number"))
 reverse=0
 while(0<n):
     remainder=n%10
